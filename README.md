@@ -5,7 +5,7 @@ This is simple a skeleton repo for managing a WordPress using: **composer**, **g
 ## Getting Started
 
 1. Create a new local wordpress installation as usual (eg through [MAMP](https://www.mamp.info/))
-2. Clone this repo within the wordpress root installation folder (eg through [GitHub Desktop](https://desktop.github.com/))
+2. Clone this repo within the wordpress root installation folder (eg through [GitHub Desktop](https://desktop.github.com/) and/or [Atom.io](https://atom.io/))
 5. Add to the **composer.json** file all of the wordpress plugins and themes (eg from [wpackagist](http://wpackagist.org/)) that might be required in this wordpress installation
 3. Run `composer install` or `composer update` within the wordpress installation folder.
 4. Add your custom theme and plugins into `wp-content/themes` and `wp-content/plugins`
