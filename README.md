@@ -9,7 +9,7 @@ This is simple a skeleton repo for managing a WordPress using: **composer**, **g
 3. Use `composer install` cmd and follow the onscreen instructions to add your config settings.
 4. Add your theme into `public/content/themes`
 5. Add any required plugins, from their [wpackagist](http://wpackagist.org/) packages or by adding your custom plugins into `public/content/plugins`
-6. Launch your local server
+6. In the .gitignore file, for each of your plugin or theme you want to keep under git control, add a line similar to these: `!wp-content/plugins/my-plugin-name` for a custom plugin, `!wp-content/themes/my-theme-name` for a custom theme
 7. Happy coding...
 
 
