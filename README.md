@@ -15,7 +15,7 @@ This is simple a skeleton repo for managing a WordPress using: **composer**, **g
 ### Requirements
 **localhost:** composer, git (and wordpress..)
 
-**live:** ftp access (and wordpress..)
+**live server:** ftp access (and wordpress..)
 
 
 ## Contribution
