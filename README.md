@@ -1,6 +1,6 @@
 # wordpress-skeleton
 
-This is simple a skeleton repo for managing a WordPress using: **composer**, **git**
+This is simple a skeleton repo for managing a WordPress site using: **composer**, **git**
 
 ## Getting Started
 
