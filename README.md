@@ -15,7 +15,7 @@ This is simple a skeleton repo for managing a WordPress using: **composer**, **g
 ### Requirements
 **localhost:** composer, git (and wordpress..)
 
-**live server:** ftp access (and wordpress..)
+**live server:** ftp access (and wordpress..) (or even better [GitHubUpdater Continuous Integration](https://medium.com/@limikael/continuous-integration-for-wordpress-d152ec4852e5) setted)
 
 
 ## Contribution
