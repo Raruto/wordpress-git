@@ -4,30 +4,19 @@ This is simple a skeleton repo for managing a WordPress using: **composer**, **g
 
 ## Getting Started
 
-1. Create a new local wordpress installation as usual.
-2. Clone this repo within the wordpress installation folder
-3. Use `composer install` cmd and follow the onscreen instructions to add your config settings.
-4. Add your theme into `public/content/themes`
-5. Add any required plugins, from their [wpackagist](http://wpackagist.org/) packages or by adding your custom plugins into `public/content/plugins`
-6. In the .gitignore file, for each of your plugin or theme you want to keep under git control, add a line similar to these: `!wp-content/plugins/my-plugin-name` for a custom plugin, `!wp-content/themes/my-theme-name` for a custom theme
+1. Create a new local wordpress installation as usual (eg through [MAMP](https://www.mamp.info/))
+2. Clone this repo within the wordpress installation folder (eg through [GitHub Desktop](https://desktop.github.com/))
+5. Add to the **composer.json** file all of the wordpress plugins and themes (eg from [wpackagist](http://wpackagist.org/)) dependencies that might be required in this wordpress installation
+3. Run `composer install` or `composer update` within the wordpress installation folder.
+4. Add your custom theme and plugins into `public/content/themes` and `public/content/plugins`
+6. Add to the **.gitignore** file all of your custom plugins/themes that you want to keep under git control (add `!wp-content/plugins/my-plugin-name` for a custom plugin and `!wp-content/themes/my-theme-name` for a custom theme)
 7. Happy coding...
 
+### Requirements
+**localhost:** composer, git (and wordpress..)
 
-#### Development
+**live:** ftp access (and wordpress..)
 
-**> Get wordpress and packages**
-
-``` composer install ``` or ``` composer update ```
-
-#### Production
-
-**> Get wordpress and packages and optimize composer**
-
-```
-composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader
-```
-
-**> Send to your prod server via FTP or with your favorite deployment tool :thumbsup:**
 
 ## Contribution
 
