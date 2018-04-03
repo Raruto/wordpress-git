@@ -1,4 +1,4 @@
-# wordpress-git-skeleton
+# wordpress-git
 
 This is simple a skeleton repo for managing a WordPress site using: **composer**, **git**
 
