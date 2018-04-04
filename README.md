@@ -12,7 +12,6 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 ### remember to...
 - Add to the **composer.json** file all of the wordpress plugins and themes (eg from [wpackagist](http://wpackagist.org/)) that might be required in this wordpress installation.
-- Add your custom theme/plugins into `wp-content/themes` and `wp-content/plugins`.
 - Add to the **.gitignore** file all of your custom plugins/themes that you want to keep under git control (add `!wp-content/plugins/my-plugin-name` for a custom plugin and `!wp-content/themes/my-theme-name` for a custom theme).
 
 ### Requirements
