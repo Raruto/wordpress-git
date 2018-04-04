@@ -21,9 +21,11 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 **live server:** ftp access (and wordpress..) (or even better [GitHubUpdater Continuous Integration](https://medium.com/@limikael/continuous-integration-for-wordpress-d152ec4852e5) setted)
 
+<br>
+
+**Install tips:** [WP-CLI](https://make.wordpress.org/cli/handbook/installing/), [Composer](https://getcomposer.org/doc/00-intro.md)
 
 ## Contribution
 
  You can fork it and submit your change with a pull request on develop branch !
 
-**Install links:** [WP-CLI](https://make.wordpress.org/cli/handbook/installing/), [Composer](https://getcomposer.org/doc/00-intro.md)
