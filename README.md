@@ -26,7 +26,4 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
  You can fork it and submit your change with a pull request on develop branch !
 
-#### Useful Links
-**WP-CLI:** [How to Install](https://make.wordpress.org/cli/handbook/installing/)
-
-**Composer:** [How to Install](https://getcomposer.org/doc/00-intro.md)
+**Install links:** [WP-CLI](https://make.wordpress.org/cli/handbook/installing/), [Composer](https://getcomposer.org/doc/00-intro.md)
