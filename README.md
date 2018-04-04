@@ -1,6 +1,6 @@
 # wordpress-git
 
-This is simple a skeleton repo for managing a WordPress site using: **composer**, **git**
+This is a simple skeleton repo for managing a WordPress site using: **composer**, **git**
 
 ## Getting Started
 
