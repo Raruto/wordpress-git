@@ -17,7 +17,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 - Add to the **composer.json** file all of the wordpress plugins and themes that will be required in this wordpress installation.
 
 ### Requirements
-**localhost:** [WP-CLI](https://make.wordpress.org/cli/handbook/installing/), [Composer](https://getcomposer.org/doc/00-intro.md), git (and wordpress..)
+**localhost:** [wp-cli](https://make.wordpress.org/cli/handbook/installing/), [composer](https://getcomposer.org/doc/00-intro.md), [git](https://git-scm.com/downloads) (and wordpress..)
 
 **live server:** ftp access (and wordpress..) (or even better [GitHubUpdater Continuous Integration](https://medium.com/@limikael/continuous-integration-for-wordpress-d152ec4852e5) setted)
 
