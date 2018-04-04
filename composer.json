@@ -1,17 +1,29 @@
 {
+    "name": "raruto/wordpress-git",
+    "description" : "a simple skeleton repo for managing a WordPress site using: composer, git",
+    "type"        : "project",
     "repositories": [
         {
             "type": "composer",
             "url": "https://wpackagist.org"
         }
     ],
+    "config"      : {
+        "vendor-dir": "wp-content/vendor"
+    },
     "require": {
-        "wpackagist-theme/twentyfifteen": "*"
+        "johnpbloch/wordpress": ">=4.9",
+        "wpackagist-theme/twentyfifteen": "*",
+        "wpackagist-plugin/wordpress-seo": "7.1",
+        "tomjn/composerpress": "dev-master"
     },
     "extra": {
         "installer-paths": {
             "wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
             "wp-content/themes/{$name}/": ["type:wordpress-theme"]
-        }
-    }
+        },
+        "wordpress-install-dir": "wp"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
