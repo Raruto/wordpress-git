@@ -6,7 +6,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 1. Clone this repo within the local web root folder (eg through [GitHub Desktop](https://desktop.github.com/)/[Atom.io](https://atom.io/) and [MAMP](https://www.mamp.info/)).
 2. **NB** Rename the cloned folder (_wordpress-git_) to something more friendly (eg _site-name_).
-4. Run `wp core download` within this folder to install wordpress (or even better [`wp core install`](https://github.com/wp-cli/core-command)` --url=<url> --title=<site-title> --admin_user=<username> [--admin_password=<password>] --admin_email=<email> [--skip-email]`)
+4. Run `wp core download` within this folder to install wordpress (or even better [`wp core install`](https://github.com/wp-cli/core-command#wp-core-install))
 5. Run `composer install` or `composer update` within the same folder to install any required plugin/theme.
 6. Happy coding...
 
