@@ -17,7 +17,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 ### Requirements
 **[localhost](http://127.0.0.1):** [wp-cli](https://make.wordpress.org/cli/handbook/installing/), [composer](https://getcomposer.org/doc/00-intro.md), [git](https://git-scm.com/downloads) (and wordpress..)
 
-**live server:** ftp access or _**even better**_ [GitHubUpdater Continuous Integration](https://medium.com/@limikael/continuous-integration-for-wordpress-d152ec4852e5) (and wordpress..)
+**live server:** ftp access or _**even better**_ [GitHubUpdater CI](https://medium.com/@limikael/continuous-integration-for-wordpress-d152ec4852e5) (and wordpress..)
 
 ## Contribution
 
