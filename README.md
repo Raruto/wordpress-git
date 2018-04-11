@@ -1,6 +1,7 @@
 # wordpress-git
 
 This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, **composer**, **git**
+![Wordpress + Git + Composer](https://cdn.deliciousbrains.com/content/uploads/2015/05/Git-Composer.png)
 
 ## Getting Started
 
