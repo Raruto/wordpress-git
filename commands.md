@@ -42,5 +42,5 @@
 
 
 
-`wp core install `**`--url=http://127.0.0.1/folder-name`**` `**`--title="Site Name"`**` `**`--admin_name="admin"`**` `**`--admin_password="admin"`**` `**`--admin_email="example@example.com"`**` --skip-email`
+`wp core install `**`--url=http://127.0.0.1/folder-name`**` `**`--title="Site Name"`**` `**`--admin_name="admin"`**` `**`--admin_password="admin"`**` --admin_email="example@example.com" --skip-email`
 
