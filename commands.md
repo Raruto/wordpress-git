@@ -18,7 +18,7 @@
 ## MySQL Server
 
 #### 1. Connect to Server:
-- “for a MAMP installation use”: `mysql --host=127.0.0.1 -uroot -proot`
+- for a MAMP installation use: `mysql --host=127.0.0.1 -uroot -proot`
 
 #### 2. Show saved DBs:
 - `SHOW DATABASES;`
