@@ -30,7 +30,10 @@
 
 #### The Short Way (Creating a new DB in MAMP & Install a new Wordpress instance):
 `wp core download`
+
 `mysql --host=127.0.0.1 -uroot -proot -e  `**`"CREATE DATABASE wordpress_1;"`**`;`
+
 `wp core config `**`--dbname=wordpress_1`**` --dbuser=root --dbpass=root --dbhost=127.0.0.1`
+
 `wp core install `**`--url=http://127.0.0.1/folder-name`**` `**`--title="Site Name"`**` `**`--admin_name="admin"`**` `**`--admin_password="admin"`**` `**`--admin_email="example@example.com"`**` --skip-email`
 
