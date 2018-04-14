@@ -21,5 +21,5 @@
 - `SHOW DATABASES;`
 
 #### 3. Create a new DB:
-- `CREATE DATABASE my_db_name;`
+- `CREATE DATABASE my_new_db_name;`
 
