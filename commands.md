@@ -27,4 +27,4 @@
 - `exit;`
 
 #### The Short Way (Creating a new DB in MAMP):
-- `mysql --host=127.0.0.1 -uroot -proot -e  "create database `**`insert_db_name_here`**`;";`
+- `mysql --host=127.0.0.1 -uroot -proot -e  "CREATE DATABASE `**`insert_db_name_here`**`;";`
