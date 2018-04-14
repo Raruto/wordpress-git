@@ -4,10 +4,13 @@
 
 ## WP CLI
 
+#### To install:
+- “Wordpress”: `wp core download`
+
 #### To update: 
 - “Wordpress”: `wp update core`
 
-#### To solve common issues:
+#### Solving common issues:
 - _“Another update is currently in progress”_: `wp option delete core_updater.lock`
 
 ---
