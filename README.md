@@ -22,7 +22,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 ## Contribution
 
- You can fork it and submit your change with a pull request on develop branch !
+ You can fork it and submit your change with a pull request !
  
  ---
 
