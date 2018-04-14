@@ -33,7 +33,7 @@
 
 #### The Short Way (Creating a new DB in MAMP & Install a new Wordpress instance):
 
-`wp core download `**`--locale=it_IT`**``
+`wp core download `**`--locale=it_IT`**` `
 
 `wp core config `**`--dbname=wordpress_1`**` --dbuser=root --dbpass=root --dbhost=127.0.0.1`
 
