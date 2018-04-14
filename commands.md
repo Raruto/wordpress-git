@@ -26,3 +26,5 @@
 #### 4. Exit:
 - `exit;`
 
+#### The Short Way (Creating a new DB MAMP):
+- `mysql --host=127.0.0.1 -uroot -proot -e  "create database `**`insert_db_name_here`**`;";`
