@@ -23,3 +23,6 @@
 #### 3. Create a new DB:
 - `CREATE DATABASE my_new_db_name;`
 
+#### 4. Exit:
+- `exit;`
+
