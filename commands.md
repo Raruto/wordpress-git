@@ -60,7 +60,7 @@ Suggested: use `"rsync"` to sync media files.
 ---
 
 ### Windows Subsystem for Linux ("Windows Bash")
-- force use of native binaries (run `nano ~.bashrc` and append the following lines):
+- force use of native binaries (run `nano ~.bashrc`, append the following lines and after run `source ~.bashrc`):
    - php: `alias php=php.exe`
    - wp-cli: `alias wp='cmd.exe /c wp'`
    - composer: `alias composer='cmd.exe /c composer'`
