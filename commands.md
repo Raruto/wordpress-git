@@ -65,4 +65,3 @@ Suggested: use `"rsync"` to sync media files.
    - wp-cli: `alias wp='cmd.exe /c wp'`
    - composer: `alias composer='cmd.exe /c composer'`
 - create a shortcut to your windows user folder: `ln -s /mnt/c/Users/<USERNAME> ~/<USERNAME>`
-- remove a previously setted alias: `unalias ALIAS_NAME`
