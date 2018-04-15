@@ -62,5 +62,7 @@ Suggested: use `"rsync"` to sync media files.
 ### Windows Subsystem for Linux ("Windows Bash")
 
 - force use of native php binary: `alias php=php.exe`
-- force use of native wp-cli command: `alias wp='php C:/<PATH_TO_PHAR>/wp-cli.phar'`
+- force use of native wp-cli command: `alias wp='cmd.exe /c wp.bat'`
+- force use of native composer command: `alias composer='cmd.exe /c composer'`
 - create a shortcut to your windows user folder: `ln -s /mnt/c/Users/<USERNAME> ~/<USERNAME>`
+- remove a previously setted alias: `unalias ALIAS_NAME`
