@@ -21,7 +21,7 @@
 - `SHOW DATABASES;`
 
 #### 3. Create a new DB:
-- `CREATE DATABASE my_new_db_name;` (to Delete a DB: `DROP DATABASE my_db_name;`)
+- `CREATE DATABASE my_new_db_name;` (to delete a DB: `DROP DATABASE my_db_name;`)
 
 #### 4. Exit:
 - `exit;`
