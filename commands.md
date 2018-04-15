@@ -31,7 +31,7 @@
 
 ---
 
-## All in One WP Migration Plugin
+### All in One WP Migration (WP CLI Plugin)
 
 #### Install the plugin
 
