@@ -1,7 +1,19 @@
 #!/bin/bash
 
+# Windows Subsystem for Linux ("Windows Bash")
+# You MUST use native Windows binaries:
+# 1.Run: "nano ~.bash_aliases"
+# 2 Append the following lines:
+# 		php: alias php=php.exe
+# 		wp-cli: alias wp='cmd.exe /c wp'
+# 		composer: alias composer='cmd.exe /c composer'
+# 3. Run: "source ~.bash_aliases" (Optional)
+
+# If present load bash aliases
 shopt -s expand_aliases
-source ~/.bash_aliases
+if [ -f ~/.bash_aliases ]; then
+. ~/.bash_aliases
+fi
 
 # Default options
 LOCALE="it_IT"
@@ -14,6 +26,14 @@ ADMIN_USER='admin'
 ADMIN_PASSWORD='admin'
 ADMIN_EMAIL='admin@example.com'
 
+echo "-------------------------------------------------------"
+printf " installation-folder\t= \033[1;33m$PWD\033[m\n"
+printf " login-url\t\t= \033[1;33mhttp://$DB_HOST/$CURRENT_FOLDER_NAME/wp-login.php\033[m\n"
+printf " admin user\t\t= \033[1;33m$ADMIN_USER\033[m\n"
+printf " admin password\t\t= \033[1;33m$ADMIN_PASSWORD\033[m\n"
+echo "-------------------------------------------------------"
+printf "\n"
+
 #printf "WordPress Admin Password: "
 #read ADMIN_PASSWORD
 
@@ -22,9 +42,17 @@ ADMIN_EMAIL='admin@example.com'
 
 # Install WordPress and create the wp-config.php file...
 wp core download --locale=$LOCALE
-wp core config --dbname=$CURRENT_FOLDER_NAME --dbuser=$DB_USER --dbpass=$DB_PASS --dbhost=$DB_HOST --dbprefix=$DB_PREFIX
+wp core config --dbname=$CURRENT_FOLDER_NAME --dbuser=$DB_USER --dbpass=$DB_PASS --dbhost=$DB_HOST --dbprefix=$DB_PREFIX <<WP_DEBUG
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', true);
+define('WP_MEMORY_LIMIT', '256M');
+WP_DEBUG
+
 wp db create
 wp core install --title=$CURRENT_FOLDER_NAME --url="http://$DB_HOST/$CURRENT_FOLDER_NAME" --admin_user=$ADMIN_USER --admin_password=$ADMIN_PASSWORD --admin_email=$ADMIN_EMAIL --skip-email
+
+composer install
 
 # Update WordPress options
 wp option update permalink_structure '/%postname%/'
