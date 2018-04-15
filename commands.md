@@ -47,10 +47,10 @@ Suggested: use `"rsync"` to sync media files.
 
 1. `cd wp-content/ai1wm-backups/` (go to backup directory) or `mkdir wp-content/ai1wm-backups/` (create if does not exist)
 
-2. `wget http://example.com/wp-content/ai1wm-backups/backup-20180105-142530-313.wpress` (download the backup)
+2. `wget http://example.com/wp-content/ai1wm-backups/backup-name.wpress` (download the backup)
 
-3. `wp ai1wm restore backup-20180105-142530-313.wpress` (restore from the backup)
+3. `wp ai1wm restore backup-name.wpress` (restore from the backup)
 
 4. `wp rewrite flush` (flush permalinks, do it once or twice if you encounter problems)
 
-5. `rm backup-20180105-142530-313.wpress` (remember to delete the backup file from the source as well)
+5. `rm backup-name.wpress` (remember to delete the backup file from the source as well)
