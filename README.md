@@ -35,3 +35,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 `wp db create`
 
 `wp core install `**`--url=http://127.0.0.1/folder-name`**` `**`--title="Site Name"`**` `**`--admin_name="admin"`**` `**`--admin_password="admin"`**` --admin_email="example@example.com" --skip-email`
+
+#### Otherwise - "Download and click on `one-click-install.sh` bash script" (MAMP required..)
+
+
