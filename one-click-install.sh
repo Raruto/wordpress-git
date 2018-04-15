@@ -26,6 +26,9 @@ ADMIN_USER='admin'
 ADMIN_PASSWORD='admin'
 ADMIN_EMAIL='admin@example.com'
 
+printf "\033[1;33mwp-config.php\033[m -----------------------------------------\n"
+printf " DEBUG\t\t= \033[1;33menabled\033[m\n"
+printf " MEMORY_LIMIT\t= \033[1;33m256MB\033[m\n"
 echo "-------------------------------------------------------"
 printf " installation-folder\t= \033[1;33m$PWD\033[m\n"
 printf " login-url\t\t= \033[1;33mhttp://$DB_HOST/$CURRENT_FOLDER_NAME/wp-login.php\033[m\n"
