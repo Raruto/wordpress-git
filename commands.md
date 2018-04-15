@@ -50,6 +50,8 @@ Suggested: use `"rsync"` to sync media files.
 2. `wget http://example.com/wp-content/ai1wm-backups/backup-name.wpress` (download the backup)
 
 3. `wp ai1wm restore backup-name.wpress` (restore from the backup)
+    
+    **Remember:** backup file must be located in the "ai1wm-backups" directory.    
 
 4. `wp rewrite flush` (flush permalinks, do it once or twice if you encounter problems)
 
