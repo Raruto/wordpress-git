@@ -38,7 +38,7 @@ wp option update permalink_structure '/%postname%/'
 #wp plugin install gravity-forms-placeholders disqus-comment-system regenerate-thumbnails widget-classes custom-post-widget jetpack w3-total-cache wordpress-seo
 
 # Update plugins
-wp plugin update --all
+#wp plugin update --all
 
 # BackWPup options
 #wp option update backwpup_cfg_showadminbar '0'
