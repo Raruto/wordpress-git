@@ -2,12 +2,43 @@
 
 # Windows Subsystem for Linux ("Windows Bash")
 # You MUST use native Windows binaries:
-# 1. Run: "nano ~.bash_aliases"
-# 2. Append the following lines:
+# 1.Run: "nano ~.bash_aliases"
+# 2 Append the following lines:
 # 		php: alias php=php.exe
 # 		wp-cli: alias wp='cmd.exe /c wp'
 # 		composer: alias composer='cmd.exe /c composer'
 # 3. Run: "source ~.bash_aliases"
+if grep -q Microsoft /proc/version; then
+	OS_TYPE="Windows Subsystem for Linux"
+else
+	unameOut="$(uname -s)"
+	case "${unameOut}" in
+		Linux*)     machine="Linux";;
+		Darwin*)    machine="Mac";;
+		CYGWIN*)    machine="Cygwin";;
+		MINGW*)     machine="MinGw";;
+		*)          machine="UNKNOWN:${unameOut}"
+	esac
+	OS_TYPE="Linux System: ${machine}"
+	if [ "$machine" = "Cygwin" ] || [ "$machine" = "MinGw" ]; then
+		echo -e "-------------------------------------------------------------"
+		echo -e "Your OS type: \033[1;33m\"$OS_TYPE\"\033[m\n"
+		echo -e "If you are running this on Windows,"
+		echo -e "retry within a: \033[1;33m\"Windows Subsystem for Linux (\"Windows Bash\")\"\033[m\n"
+		echo -e "\033[1;33mREMEMBER:\033[m ----------------------------------------------------"
+		echo -e "You MUST use native Windows binaries,"
+		echo -e "to achieve this, perform the following steps:\n"
+		echo -e " 1.Run: \"nano ~.bash_aliases\"\n"
+		echo -e " 2 Append the following lines:\n"
+		echo -e "\talias php=php.exe"
+		echo -e "\talias wp='cmd.exe /c wp'"
+		echo -e "\tcomposer: alias composer='cmd.exe /c composer'\n"
+		echo -e " 3. Run: \"source ~.bash_aliases\""
+		echo -e "-------------------------------------------------------------"
+		read
+		exit;
+	fi
+fi
 
 # If present load bash aliases
 shopt -s expand_aliases
@@ -36,6 +67,7 @@ printf " admin user\t\t= \033[1;33m$ADMIN_USER\033[m\n"
 printf " admin password\t\t= \033[1;33m$ADMIN_PASSWORD\033[m\n"
 echo "-------------------------------------------------------"
 printf "\n"
+printf "Your OS: \033[1;33m$OS_TYPE\033[m\n"
 
 #printf "WordPress Admin Password: "
 #read ADMIN_PASSWORD
