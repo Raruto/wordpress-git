@@ -1,4 +1,7 @@
 #!/bin/bash
+# This installer assumes that you are using:
+# - LOCALHOST: a default MAMP installation (see: https://www.mamp.info/)
+# - OS: Linux/Mac or a "Windows Bash" (search for: https://github.com/Microsoft/WSL)
 
 # Windows Subsystem for Linux ("Windows Bash")
 # You MUST use native Windows binaries:
