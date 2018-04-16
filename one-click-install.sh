@@ -2,12 +2,12 @@
 
 # Windows Subsystem for Linux ("Windows Bash")
 # You MUST use native Windows binaries:
-# 1.Run: "nano ~.bash_aliases"
-# 2 Append the following lines:
+# 1. Run: "nano ~.bash_aliases"
+# 2. Append the following lines:
 # 		php: alias php=php.exe
 # 		wp-cli: alias wp='cmd.exe /c wp'
 # 		composer: alias composer='cmd.exe /c composer'
-# 3. Run: "source ~.bash_aliases" (Optional)
+# 3. Run: "source ~.bash_aliases"
 
 # If present load bash aliases
 shopt -s expand_aliases
