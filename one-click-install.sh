@@ -43,7 +43,7 @@ fi
 # If present load bash aliases
 shopt -s expand_aliases
 if [ -f ~/.bash_aliases ]; then
-. ~/.bash_aliases
+	. ~/.bash_aliases
 fi
 
 # Default options
