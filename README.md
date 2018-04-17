@@ -105,3 +105,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 1. Download and run the installer: [Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe)
 2. (Optional) "uninstall" the installer (anyway composer will remain..)
 3. This entry `C:\ProgramData\ComposerSetup\bin` was already added to your PATH.
+
+---
+
+**Useful download resources:** [git](https://git-scm.com/downloads), [GitHub Desktop](https://desktop.github.com/), [Atom.io](https://atom.io/)
