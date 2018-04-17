@@ -12,7 +12,7 @@
 # You MUST use bundled MAMP binaries:
 # 1.Run: "nano ~.bash_aliases"
 # 2 Append the following lines:
-#			# Use MAMP version of: PHP, MySQL
+# 		# Use MAMP version of: PHP, MySQL
 # 		PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1`
 # 		export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH
 # 		alias mysql='/Applications/MAMP/Library/bin/mysql'
