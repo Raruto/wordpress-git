@@ -110,7 +110,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 ### Installing Git
 
-Depending on operating system use the:
+Depending on operating system you may use the:
 - [Linux installer](https://git-scm.com/download/linux)
 - [Mac installer](https://git-scm.com/download/mac)
 - [Windows installer](https://git-scm.com/download/win)
@@ -126,3 +126,6 @@ Depending on operating system use the:
 ---
 
 **Useful download resources:** [Git](https://git-scm.com/downloads), [GitHub Desktop](https://desktop.github.com/), [Atom.io](https://atom.io/), [MAMP](https://www.mamp.info/en/downloads/), [wpackagist](https://wpackagist.org/)
+
+**Useful docs resources:** [Git Book](https://git-scm.com/book), [GitHub Desktop User Guides](https://help.github.com/desktop/guides/getting-started-with-github-desktop/), [Atom.io Flight Manual](https://flight-manual.atom.io/), [MAMP Documentation](http://documentation.mamp.info/), [wpackagist](https://wpackagist.org/), [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about)
+
