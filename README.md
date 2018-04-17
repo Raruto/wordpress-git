@@ -9,7 +9,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 2. **NB** Rename the cloned folder (_wordpress-git_) to something more friendly (eg _site-name_).
 3. Within this folder, now you can alternately run:
       1. `wp core download` to install wordpress (or even better [`wp core install`](https://github.com/Raruto/wordpress-git#pro-tip---creating-a-new-db-in-mamp--install-a-new-wordpress-instance))<br>`composer install` to install any required plugin/theme (`composer update` it's also fine).
-      2. `one-click-install.sh` to perform all these things (and more) automatically.
+      2. [`one-click-install.sh`](https://github.com/Raruto/wordpress-git/blob/master/one-click-install.sh) to perform all these things (and more) automatically.
 6. Happy coding...
 
 ### remember to...
