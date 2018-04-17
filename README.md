@@ -40,24 +40,24 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 4. `wp core install `**`--url=http://127.0.0.1/folder-name`**` `**`--title="Site Name"`**` `**`--admin_name="admin"`**` `**`--admin_password="admin"`**` --admin_email="example@example.com" --skip-email`
 
 #### Pro Tip - "Force using MAMP's bundled binaries in a Linux/Mac OS"
-1. run: `nano ~.bash_aliases`
+1. run: `nano ~.bash_profile`
 2. append the following lines:
      ```
      PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1` # get latest available PHP version
      export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH  # see: /Applications/MAMP/bin/php
      alias mysql='/Applications/MAMP/Library/bin/mysql'
      ```
-3. run: `source ~.bash_aliases`
+3. run: `source ~.bash_profile`
 
 #### Pro Tip - "Force using MAMP's Windows binaries in a Windows Subsystem for Linux ("Windows Bash")"
-1. run `nano ~.bash_aliases`
+1. run `nano ~.bash_profile`
 2. append the following lines:
      ```
      alias php=php.exe
      alias wp='cmd.exe /c wp'
      alias composer='cmd.exe /c composer'
      ```
-3. run `source ~.bash_aliases`
+3. run `source ~.bash_profile`
 4. (optional) create a shortcut to your windows user folder: `ln -s /mnt/c/Users/<USERNAME> ~/<USERNAME>`
 
 #### Pro Tip - "Use MAMP's bundled binaries in a Windows OS ("Windows Terminal")"
@@ -104,4 +104,4 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 0. Make sure you have php (ie through MAMP) installed and in your [PATH](#pro-tip---use-mamps-bundled-binaries-in-a-windows-os-windows-terminal).
 1. Download and run the installer: [Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe)
 2. (Optional) "uninstall" the installer (anyway composer will remain..)
-3. This entry `C:\ProgramData\ComposerSetup\bin` was added to your PATH.
+3. This entry `C:\ProgramData\ComposerSetup\bin` was already added to your PATH.
