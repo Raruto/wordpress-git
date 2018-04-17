@@ -45,7 +45,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
    - ``alias mysql='/Applications/MAMP/Library/bin/mysql' ``
 3. run: `source ~.bash_aliases`
 
-#### Pro Tip - "Force using Windows binaries in a Windows Subsystem for Linux ("Windows Bash")"
+#### Pro Tip - "Force using MAMP's Windows binaries in a Windows Subsystem for Linux ("Windows Bash")"
 1. run `nano ~.bash_aliases`
 2. append the following lines:
    - `alias php=php.exe`
