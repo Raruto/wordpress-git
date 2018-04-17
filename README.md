@@ -40,10 +40,15 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 #### Pro Tip - "Force using MAMP's bundled binaries in a Linux/Mac OS"
 1. run: `nano ~.bash_aliases`
 2. append the following lines:
-   - ``PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1` ``
+   - ``PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1` # get latest available PHP version ``
    - ``export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH ``
    - ``alias mysql='/Applications/MAMP/Library/bin/mysql' ``
 3. run: `source ~.bash_aliases`
+
+#### Pro Tip - "Use MAMP's bundled binaries in a Windows OS ("Windows Terminal")"
+1. run ``set PATH=%PATH%;C:\MAMP\bin\php\php7.0.9\ `` for _php version 7.0.9_
+2. run ``set PATH=%PATH%;C:\MAMP\bin\mysql\bin `` for _mysql_
+2. run ``set PATH=%PATH%;C:\``**``some_path``**`` `` for _wp-cli_, _composer_, etc. etc.
 
 #### Pro Tip - "Force using MAMP's Windows binaries in a Windows Subsystem for Linux ("Windows Bash")"
 1. run `nano ~.bash_aliases`
