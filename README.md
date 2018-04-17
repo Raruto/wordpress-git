@@ -27,6 +27,8 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
  
 ---
 
+## Useful Tips
+
 #### Pro Tip - "Creating a new DB in MAMP & Install a new Wordpress instance":
 
 1. `wp core download `**`--locale=it_IT`**
