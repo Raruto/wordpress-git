@@ -108,4 +108,4 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 ---
 
-**Useful download resources:** [git](https://git-scm.com/downloads), [GitHub Desktop](https://desktop.github.com/), [Atom.io](https://atom.io/)
+**Useful download resources:** [git](https://git-scm.com/downloads), [GitHub Desktop](https://desktop.github.com/), [Atom.io](https://atom.io/), [MAMP](https://www.mamp.info/en/downloads/)
