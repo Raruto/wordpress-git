@@ -64,7 +64,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 <sub><b>Warning:</b> You may permanently lose your PATH data (don't blindly copy/paste this..)</sub>
 1. run ``setx path %path%;C:\MAMP\bin\php\php7.0.9\ `` for _php version 7.0.9_
 2. run ``setx path %path%;C:\MAMP\bin\mysql\bin `` for _mysql_
-3. (optional) run ``setx path %path%;C:\``**``some_path``**`` `` for _wp-cli_, _composer_, etc. etc.
+3. (optional) run ``setx path %path%;C:\``**``some_path``**`` `` for _wp-cli_, _composer_, _git_ etc. etc.
 
 ---
 
