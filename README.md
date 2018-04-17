@@ -110,7 +110,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 ### Installing Git
 
-Depending on operating system use:
+Depending on operating system use the:
 - [Linux installer](https://git-scm.com/download/linux)
 - [Mac installer](https://git-scm.com/download/mac)
 - [Windows installer](https://git-scm.com/download/win)
