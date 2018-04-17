@@ -74,8 +74,8 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 0. Make sure you have php (or MAMP) installed and in your [PATH](#pro-tip---use-mamps-bundled-binaries-in-a-windows-os-windows-terminal).
 1. Download **wp-cli.phar** and save it to a folder, eg **c:\wp-cli**
 2. Create a file named **wp.bat** in **c:\wp-cli** with the following contents:
-```
-@ECHO OFF
-php "c:/wp-cli/wp-cli.phar" %*
-```
+     ```
+     @ECHO OFF
+     php "c:/wp-cli/wp-cli.phar" %*
+     ```
 3. Add **c:\wp-cli** to your PATH (eg `setx path "%path%;c:\wp-cli"`)
