@@ -119,12 +119,13 @@ wp core config --dbname=$CURRENT_FOLDER_NAME --dbuser=$DB_USER --dbpass=$DB_PASS
  * Enable WP DEBUGGING
  */
 define('WP_DEBUG', true);
-define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_LOG', true); 					// see: /wp-content/debug.log
 define('WP_DEBUG_DISPLAY', true);
 /**
  * Increase WP MEMORY LIMIT
  */
-define('WP_MEMORY_LIMIT', '256M');
+define('WP_MEMORY_LIMIT', '256M');			// front-end area
+define('WP_MAX_MEMORY_LIMIT', '256M');	// wp-admin area
 PHP
 
 wp db create
