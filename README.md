@@ -41,7 +41,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 1. run: `nano ~.bash_aliases`
 2. append the following lines:
    - ``PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1` # get latest available PHP version ``
-   - ``export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH ``
+   - ``export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH  # see: /Applications/MAMP/bin/php ``
    - ``alias mysql='/Applications/MAMP/Library/bin/mysql' ``
 3. run: `source ~.bash_aliases`
 
