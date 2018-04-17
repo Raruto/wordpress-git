@@ -84,7 +84,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
      ```
 3. Add **c:\wp-cli** to your PATH (eg `setx path "%path%;c:\wp-cli"`)
 
-<sub>see <a href="https://make.wordpress.org/cli/handbook/installing/">wp-cli docs</a> for other info</sub>
+<sub>see also: <a href="https://make.wordpress.org/cli/handbook/installing/">wp-cli docs</a></sub>
 
 ---
 
@@ -104,7 +104,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 2. (Optional) "uninstall" the installer (anyway composer will remain..)
 3. This entry `C:\ProgramData\ComposerSetup\bin` was already added to your PATH.
 
-<sub>see <a href="https://getcomposer.org/doc/00-intro.md">composer docs</a> for other info</sub>
+<sub>see also: <a href="https://getcomposer.org/doc/00-intro.md">composer docs</a></sub>
 
 ---
 
