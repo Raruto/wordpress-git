@@ -26,7 +26,6 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
  You can fork it and submit your change with a pull request !
  
 ---
----
 
 ## Useful Tips
 
