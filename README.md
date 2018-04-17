@@ -66,7 +66,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 2. run ``setx path %path%;C:\MAMP\bin\mysql\bin `` for _mysql_
 3. (optional) run ``setx path %path%;C:\``**``some_path``**`` `` for _wp-cli_, _composer_, etc. etc.
 
-#### "Installing WP-CLI"
+### "Installing WP-CLI"
 
 ##### Linux/Mac OS
 
