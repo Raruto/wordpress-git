@@ -147,6 +147,9 @@ wp option update permalink_structure '/%postname%/'
 #wp option update default_ping_status 'closed'
 #wp option update default_pingback_flag '0'
 
+# Remove defaults plugins
+wp plugin delete hello
+
 # Install and activate defaults plugins
 #wp plugin install abt-relative-urls add-custom-post-types-archive-to-nav-menus hide-update-reminder underconstruction better-wp-security backwpup --activate
 
