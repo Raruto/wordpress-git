@@ -45,12 +45,6 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
    - ``alias mysql='/Applications/MAMP/Library/bin/mysql' ``
 3. run: `source ~.bash_aliases`
 
-#### Pro Tip - "Use MAMP's bundled binaries in a Windows OS ("Windows Terminal")"
-<sub><b>Warning:</b> You may permanently lose your PATH data (don't blindly copy/paste this..)</sub>
-1. run ``setx path %path%;C:\MAMP\bin\php\php7.0.9\ `` for _php version 7.0.9_
-2. run ``setx path %path%;C:\MAMP\bin\mysql\bin `` for _mysql_
-3. (optional) run ``setx path %path%;C:\``**``some_path``**`` `` for _wp-cli_, _composer_, etc. etc.
-
 #### Pro Tip - "Force using MAMP's Windows binaries in a Windows Subsystem for Linux ("Windows Bash")"
 1. run `nano ~.bash_aliases`
 2. append the following lines:
@@ -59,3 +53,29 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
    - `alias composer='cmd.exe /c composer'`
 3. run `source ~.bash_aliases`
 4. (optional) create a shortcut to your windows user folder: `ln -s /mnt/c/Users/<USERNAME> ~/<USERNAME>`
+
+#### Pro Tip - "Use MAMP's bundled binaries in a Windows OS ("Windows Terminal")"
+<sub><b>Warning:</b> You may permanently lose your PATH data (don't blindly copy/paste this..)</sub>
+1. run ``setx path %path%;C:\MAMP\bin\php\php7.0.9\ `` for _php version 7.0.9_
+2. run ``setx path %path%;C:\MAMP\bin\mysql\bin `` for _mysql_
+3. (optional) run ``setx path %path%;C:\``**``some_path``**`` `` for _wp-cli_, _composer_, etc. etc.
+
+#### Pro Tip - "Installing WP-CLI"
+
+##### Linux/Mac OS
+
+0. Make sure you have php (or MAMP) installed and in your PATH.
+1. Download **wp-cli.phar**: `curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar`
+2. Make the file executable: `chmod +x wp-cli.phar`
+3. Add **wp** to your PATH: `sudo mv wp-cli.phar /usr/local/bin/wp`
+
+##### Windows
+
+0. Make sure you have php (or MAMP) installed and in your PATH.
+1. Download **wp-cli.phar** and save it to a folder, eg **c:\wp-cli**
+2. Create a file named **wp.bat** in **c:\wp-cli** with the following contents:
+```
+@ECHO OFF
+php "c:/wp-cli/wp-cli.phar" %*
+```
+3. Add **c:\wp-cli** to your PATH (eg `setx path "%path%;c:\wp-cli"`)
