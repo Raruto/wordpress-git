@@ -127,5 +127,5 @@ Depending on operating system you may use the:
 
 **Useful download resources:** [Git](https://git-scm.com/downloads), [GitHub Desktop](https://desktop.github.com/), [Atom.io](https://atom.io/), [MAMP](https://www.mamp.info/en/downloads/), [wpackagist](https://wpackagist.org/)
 
-**Useful docs resources:** [Git Book](https://git-scm.com/book), [GitHub Desktop User Guides](https://help.github.com/desktop/guides/getting-started-with-github-desktop/), [Atom.io Flight Manual](https://flight-manual.atom.io/), [MAMP Documentation](http://documentation.mamp.info/), [wpackagist](https://wpackagist.org/), [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about)
+**Useful docs resources:** [Git](https://git-scm.com/book), [GitHub Desktop](https://help.github.com/desktop/guides/getting-started-with-github-desktop/), [Atom.io](https://flight-manual.atom.io/), [MAMP](http://documentation.mamp.info/), [wpackagist](https://wpackagist.org/), [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about)
 
