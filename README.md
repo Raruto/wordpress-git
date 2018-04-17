@@ -17,7 +17,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 - Add to the **.gitignore** file all of your custom plugins/themes that you want to keep under git control (add `!wp-content/plugins/my-plugin-name` for a custom plugin and `!wp-content/themes/my-theme-name` for a custom theme).
 
 ### Requirements
-**[localhost](http://127.0.0.1):** [wp-cli](#installing-wp-cli), [git](https://git-scm.com/downloads), [composer](#installing-composer) (and wordpress..)
+**[localhost](http://127.0.0.1):** [wp-cli](#installing-wp-cli), [git](#installing-wp-git), [composer](#installing-composer) (and wordpress..)
 
 **live server:** ftp access or _**even better**_ [GitHubUpdater CI](https://medium.com/@limikael/continuous-integration-for-wordpress-d152ec4852e5) (and wordpress..)
 
@@ -108,10 +108,20 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 ---
 
+### Installing Git
+
+- [Linux installer](https://git-scm.com/download/linux)
+- [Mac installer](https://git-scm.com/download/mac)
+- [Windows installer](https://git-scm.com/download/win)
+
+<sub>see also: <a href="https://git-scm.com/book/en/">git docs</a></sub>
+
+---
+
 ## Contribution
 
  You can fork it and submit your change with a pull request !
 
 ---
 
-**Useful download resources:** [git](https://git-scm.com/downloads), [GitHub Desktop](https://desktop.github.com/), [Atom.io](https://atom.io/), [MAMP](https://www.mamp.info/en/downloads/), [wpackagist](https://wpackagist.org/)
+**Useful download resources:** [Git](https://git-scm.com/downloads), [GitHub Desktop](https://desktop.github.com/), [Atom.io](https://atom.io/), [MAMP](https://www.mamp.info/en/downloads/), [wpackagist](https://wpackagist.org/)
