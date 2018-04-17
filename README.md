@@ -37,9 +37,10 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 `wp core install `**`--url=http://127.0.0.1/folder-name`**` `**`--title="Site Name"`**` `**`--admin_name="admin"`**` `**`--admin_password="admin"`**` --admin_email="example@example.com" --skip-email`
 
-### Pro Tips - Windows Subsystem for Linux ("Windows Bash")
-- force use of windows binaries (run `nano ~.bash_aliases`, append the following lines and after run `source ~.bash_aliases`):
+### Pro Tip - "Force using Windows binaries in a Windows Subsystem for Linux ("Windows Bash")"
+1. run `nano ~.bash_aliases`
+2. append the following lines:
    - `alias php=php.exe`
    - `alias wp='cmd.exe /c wp'`
    - `alias composer='cmd.exe /c composer'`
-- create a shortcut to your windows user folder: `ln -s /mnt/c/Users/<USERNAME> ~/<USERNAME>`
+3. run `source ~.bash_aliases`
