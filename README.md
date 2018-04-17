@@ -17,7 +17,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 - Add to the **.gitignore** file all of your custom plugins/themes that you want to keep under git control (add `!wp-content/plugins/my-plugin-name` for a custom plugin and `!wp-content/themes/my-theme-name` for a custom theme).
 
 ### Requirements
-**[localhost](http://127.0.0.1):** [wp-cli](https://make.wordpress.org/cli/handbook/installing/), [git](https://git-scm.com/downloads), [composer](https://getcomposer.org/doc/00-intro.md) (and wordpress..)
+**[localhost](http://127.0.0.1):** [wp-cli](#installing-wp-cli), [git](https://git-scm.com/downloads), [composer](#installing-composer) (and wordpress..)
 
 **live server:** ftp access or _**even better**_ [GitHubUpdater CI](https://medium.com/@limikael/continuous-integration-for-wordpress-d152ec4852e5) (and wordpress..)
 
@@ -65,6 +65,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 ---
 
 ### Installing WP-CLI
+<sub>see <a href="https://make.wordpress.org/cli/handbook/installing/">docs</a> for more info</sub>
 
 ##### Linux/Mac OS
 
@@ -87,6 +88,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 ---
 
 ### Installing Composer
+<sub>see <a href="https://getcomposer.org/doc/00-intro.md">docs</a> for more info</sub>
 
 ##### Linux/Mac OS
 
