@@ -44,3 +44,4 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
    - `alias wp='cmd.exe /c wp'`
    - `alias composer='cmd.exe /c composer'`
 3. run `source ~.bash_aliases`
+4. (optional) create a shortcut to your windows user folder: `ln -s /mnt/c/Users/<USERNAME> ~/<USERNAME>`
