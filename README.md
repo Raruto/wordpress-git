@@ -64,14 +64,14 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 ##### Linux/Mac OS
 
-0. Make sure you have php (or MAMP) installed and in your PATH.
+0. Make sure you have php (or MAMP) installed and in your [PATH](#pro-tip---force-using-mamps-bundled-binaries-in-a-linuxmac-os).
 1. Download **wp-cli.phar**: `curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar`
 2. Make the file executable: `chmod +x wp-cli.phar`
 3. Add **wp** to your PATH: `sudo mv wp-cli.phar /usr/local/bin/wp`
 
 ##### Windows
 
-0. Make sure you have php (or MAMP) installed and in your PATH.
+0. Make sure you have php (or MAMP) installed and in your [PATH](#pro-tip---use-mamps-bundled-binaries-in-a-windows-os-windows-terminal).
 1. Download **wp-cli.phar** and save it to a folder, eg **c:\wp-cli**
 2. Create a file named **wp.bat** in **c:\wp-cli** with the following contents:
 ```
