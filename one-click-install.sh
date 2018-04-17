@@ -128,6 +128,10 @@ define('WP_DEBUG_DISPLAY', true);
  */
 define('WP_MEMORY_LIMIT', '256M');     // front-end area
 define('WP_MAX_MEMORY_LIMIT', '256M'); // wp-admin area
+/**
+ * Trick: fix some relative paths
+ */
+define('WP_CONTENT_URL', 'http://'.$_SERVER['HTTP_HOST'].'/'.basename(__DIR__).'/wp-content');
 PHP
 
 wp db create
