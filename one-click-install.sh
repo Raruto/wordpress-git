@@ -114,12 +114,18 @@ printf "Your OS: \033[1;33m$OS_TYPE\033[m\n"
 # Install WordPress and create the wp-config.php file...
 ################################################################################
 wp core download --locale=$LOCALE
-wp core config --dbname=$CURRENT_FOLDER_NAME --dbuser=$DB_USER --dbpass=$DB_PASS --dbhost=$DB_HOST --dbprefix=$DB_PREFIX <<WP_DEBUG
+wp core config --dbname=$CURRENT_FOLDER_NAME --dbuser=$DB_USER --dbpass=$DB_PASS --dbhost=$DB_HOST --dbprefix=$DB_PREFIX --extra-php <<PHP
+/**
+ * Enable WP DEBUGGING
+ */
 define('WP_DEBUG', true);
 define('WP_DEBUG_LOG', true);
 define('WP_DEBUG_DISPLAY', true);
+/**
+ * Increase WP MEMORY LIMIT
+ */
 define('WP_MEMORY_LIMIT', '256M');
-WP_DEBUG
+PHP
 
 wp db create
 wp core install --title=$CURRENT_FOLDER_NAME --url="http://$DB_HOST/$CURRENT_FOLDER_NAME" --admin_user=$ADMIN_USER --admin_password=$ADMIN_PASSWORD --admin_email=$ADMIN_EMAIL --skip-email
@@ -152,3 +158,8 @@ wp option update permalink_structure '/%postname%/'
 
 # Import photo samples
 #wp media import https://dl.dropboxusercontent.com/u/15052756/photo-samples/flowers-01.jpg
+
+# wp config set WP_DEBUG true --raw
+# wp config set WP_DEBUG_LOG true --raw
+# wp config set WP_DEBUG_DISPLAY true --raw
+# wp config set WP_MEMORY_LIMIT true --raw
