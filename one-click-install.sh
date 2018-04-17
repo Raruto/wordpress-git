@@ -104,7 +104,7 @@ printf " admin user\t\t= \033[1;33m$ADMIN_USER\033[m\n"
 printf " admin password\t\t= \033[1;33m$ADMIN_PASSWORD\033[m\n"
 echo "-------------------------------------------------------"
 printf "\n"
-printf "Your OS: \033[1;33m$OS_TYPE\033[m\n"
+printf "Your OS: \033[1;33m$OS_TYPE\033[m\n\n"
 
 #printf "WordPress Admin Username: "
 #read ADMIN_USER
