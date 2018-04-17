@@ -88,6 +88,8 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
      ```
 3. Add **c:\wp-cli** to your PATH (eg `setx path "%path%;c:\wp-cli"`)
 
+---
+
 ### Installing Composer
 
 ##### Linux/Mac OS
