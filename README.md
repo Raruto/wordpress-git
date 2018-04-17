@@ -21,10 +21,6 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 **live server:** ftp access or _**even better**_ [GitHubUpdater CI](https://medium.com/@limikael/continuous-integration-for-wordpress-d152ec4852e5) (and wordpress..)
 
-## Contribution
-
- You can fork it and submit your change with a pull request !
- 
 ---
 
 ## Useful Tips
@@ -105,6 +101,12 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 1. Download and run the installer: [Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe)
 2. (Optional) "uninstall" the installer (anyway composer will remain..)
 3. This entry `C:\ProgramData\ComposerSetup\bin` was already added to your PATH.
+
+---
+
+## Contribution
+
+ You can fork it and submit your change with a pull request !
 
 ---
 
