@@ -56,12 +56,3 @@ Suggested: use `"rsync"` to sync media files.
 4. `wp rewrite flush` (flush permalinks, do it once or twice if you encounter problems)
 
 5. `rm backup-name.wpress` (remember to delete the backup file from the source as well)
-
----
-
-### Windows Subsystem for Linux ("Windows Bash")
-- force use of native binaries (run `nano ~.bash_aliases`, append the following lines and after run `source ~.bash_aliases`):
-   - php: `alias php=php.exe`
-   - wp-cli: `alias wp='cmd.exe /c wp'`
-   - composer: `alias composer='cmd.exe /c composer'`
-- create a shortcut to your windows user folder: `ln -s /mnt/c/Users/<USERNAME> ~/<USERNAME>`
