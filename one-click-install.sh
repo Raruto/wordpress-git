@@ -12,26 +12,26 @@
 # Linux/Mac OS
 ################################################################################
 # You MUST use bundled MAMP binaries:
-# 1.Run: "nano ~.bash_aliases"
+# 1.Run: "nano ~.bash_profile"
 # 2 Append the following lines:
 # 		# Use MAMP version of: PHP, MySQL
 # 		PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1`
 # 		export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH
 # 		alias mysql='/Applications/MAMP/Library/bin/mysql'
-# 3. Run: "source ~.bash_aliases"
+# 3. Run: "source ~.bash_profile"
 ################################################################################
 
 ################################################################################
 # Windows Subsystem for Linux ("Windows Bash")
 ################################################################################
 # You MUST use native Windows binaries:
-# 1.Run: "nano ~.bash_aliases"
+# 1.Run: "nano ~.bash_profile"
 # 2 Append the following lines:
 # 		# Use Windows versions of: PHP, WP-CLI, Composer
 # 		alias php=php.exe
 # 		alias wp='cmd.exe /c wp'
 # 		alias composer='cmd.exe /c composer'
-# 3. Run: "source ~.bash_aliases"
+# 3. Run: "source ~.bash_profile"
 ################################################################################
 
 ################################################################################
@@ -57,13 +57,13 @@ else
 		echo -e "\033[1;33mREMEMBER:\033[m ----------------------------------------------------"
 		echo -e "You MUST use native Windows binaries,"
 		echo -e "to achieve this, perform the following steps:\n"
-		echo -e " 1.Run: \"nano ~.bash_aliases\"\n"
+		echo -e " 1.Run: \"nano ~.bash_profile\"\n"
 		echo -e " 2 Append the following lines:\n"
 		echo -e "\t# Use Windows versions of: PHP, WP-CLI, Composer"
 		echo -e "\talias php=php.exe"
 		echo -e "\talias wp='cmd.exe /c wp'"
 		echo -e "\tcomposer: alias composer='cmd.exe /c composer'\n"
-		echo -e " 3. Run: \"source ~.bash_aliases\""
+		echo -e " 3. Run: \"source ~.bash_profile\""
 		echo -e "-------------------------------------------------------------"
 		read
 		exit;
@@ -74,8 +74,8 @@ fi
 # If present load bash aliases
 ################################################################################
 shopt -s expand_aliases
-if [ -f ~/.bash_aliases ]; then
-	. ~/.bash_aliases
+if [ -f ~/.bash_profile ]; then
+	. ~/.bash_profile
 fi
 
 ################################################################################
