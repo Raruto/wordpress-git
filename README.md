@@ -27,18 +27,6 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
  
 ---
 
-# List of useful CLI commands
-
----
-
-## WP CLI
-
-#### To update: 
-- “Wordpress”: `wp update core`
-
-#### Solving common issues:
-- _“Another update is currently in progress”_: `wp option delete core_updater.lock`
-
 #### Pro Tip - "Creating a new DB in MAMP & Install a new Wordpress instance":
 
 `wp core download `**`--locale=it_IT`**
@@ -49,59 +37,9 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 `wp core install `**`--url=http://127.0.0.1/folder-name`**` `**`--title="Site Name"`**` `**`--admin_name="admin"`**` `**`--admin_password="admin"`**` --admin_email="example@example.com" --skip-email`
 
----
-
-## MySQL Server
-
-#### 1. Connect to Server:
-- for a MAMP installation use: `mysql --host=127.0.0.1 -uroot -proot`
-
-#### 2. Show saved DBs:
-- `SHOW DATABASES;`
-
-#### 3. Create a new DB:
-- `CREATE DATABASE my_new_db_name;` (to delete a DB: `DROP DATABASE my_db_name;`)
-
-#### 4. Exit:
-- `exit;`
-
-#### Pro Tip: - The short way: "Creating a new DB" (MAMP)
-- `mysql --host=127.0.0.1 -uroot -proot -e  "CREATE DATABASE my_new_db_name;";`
-
----
-
-### All in One WP Migration (WP CLI Plugin)
-
-#### Install the plugin
-
-`wp plugin install all-in-one-wp-migration --activate` (You must reload the page once before continuing)
-
-#### Do a backup (DB only)
-
-`wp ai1wm backup --exclude-media --exclude-themes --exclude-inactive-themes --exclude-muplugins --exclude-plugins --exclude-inactive-plugins --exclude-cache`
-
-Suggested: use `"rsync"` to sync media files.
-
-#### Restore a backup
-
-1. `cd wp-content/ai1wm-backups/` (go to backup directory) or `mkdir wp-content/ai1wm-backups/` (create if does not exist)
-
-2. `wget http://example.com/wp-content/ai1wm-backups/backup-name.wpress` (download the backup)
-
-3. `wp ai1wm restore backup-name.wpress` (restore from the backup)
-    
-    **Remember:** backup file must be located in the "ai1wm-backups" directory.    
-
-4. `wp rewrite flush` (flush permalinks, do it once or twice if you encounter problems)
-
-5. `rm backup-name.wpress` (remember to delete the backup file from the source as well)
-
----
-
-### Windows Subsystem for Linux ("Windows Bash")
-- force use of native binaries (run `nano ~.bash_aliases`, append the following lines and after run `source ~.bash_aliases`):
-   - php: `alias php=php.exe`
-   - wp-cli: `alias wp='cmd.exe /c wp'`
-   - composer: `alias composer='cmd.exe /c composer'`
+### Pro Tips - Windows Subsystem for Linux ("Windows Bash")
+- force use of windows binaries (run `nano ~.bash_aliases`, append the following lines and after run `source ~.bash_aliases`):
+   - `alias php=php.exe`
+   - `alias wp='cmd.exe /c wp'`
+   - `alias composer='cmd.exe /c composer'`
 - create a shortcut to your windows user folder: `ln -s /mnt/c/Users/<USERNAME> ~/<USERNAME>`
-
