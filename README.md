@@ -37,6 +37,14 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 `wp core install `**`--url=http://127.0.0.1/folder-name`**` `**`--title="Site Name"`**` `**`--admin_name="admin"`**` `**`--admin_password="admin"`**` --admin_email="example@example.com" --skip-email`
 
+#### Pro Tip - "Force using MAMP's bundled binaries in a Linux/Mac OS"
+1. run: `nano ~.bash_aliases`
+2. append the following lines:
+   - ``PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1` ``
+   - ``export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH ``
+   - ``alias mysql='/Applications/MAMP/Library/bin/mysql' ``
+3. run: `source ~.bash_aliases`
+
 #### Pro Tip - "Force using Windows binaries in a Windows Subsystem for Linux ("Windows Bash")"
 1. run `nano ~.bash_aliases`
 2. append the following lines:
