@@ -99,4 +99,4 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 0. Make sure you have php (ie MAMP) installed and in your [PATH](#pro-tip---use-mamps-bundled-binaries-in-a-windows-os-windows-terminal).
 1. Download and run the installer: [Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe)
-2. (Optional) "uninstall" the installer (composer will remain..)
+2. (Optional) "uninstall" the installer (anyway composer will remain..)
