@@ -1,0 +1,4 @@
+* text=auto
+
+# Shell Scripts
+*.sh text eol=lf
