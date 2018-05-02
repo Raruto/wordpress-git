@@ -151,6 +151,9 @@ wp option update permalink_structure '/%postname%/'
 #wp option update default_ping_status 'closed'
 #wp option update default_pingback_flag '0'
 
+# Generate .htaccess file
+wp rewrite flush --hard
+
 # Remove defaults plugins
 wp plugin delete hello
 
