@@ -164,7 +164,7 @@ wp plugin delete hello
 #wp plugin install gravity-forms-placeholders disqus-comment-system regenerate-thumbnails widget-classes custom-post-widget jetpack w3-total-cache wordpress-seo
 
 # Update plugins
-#wp plugin update --all
+wp plugin update --all
 
 # BackWPup options
 #wp option update backwpup_cfg_showadminbar '0'
@@ -176,3 +176,8 @@ wp plugin delete hello
 # wp config set WP_DEBUG_LOG true --raw
 # wp config set WP_DEBUG_DISPLAY true --raw
 # wp config set WP_MEMORY_LIMIT true --raw
+
+# Activate and configure All-In-One-WP-Migration
+wp plugin activate all-in-one-wp-migration
+mkdir wp-content/ai1wm-backups/
+mkdir wp-content/plugins/all-in-one-wp-migration/storage
