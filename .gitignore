@@ -32,6 +32,9 @@
 # track this file .gitignore (i.e. do NOT ignore it)
 !.gitignore
 
+# track this file .gitattributes (i.e. do NOT ignore it)
+!.gitattributes
+
 # track this file composer.json (i.e. do NOT ignore it)
 !composer.json
 !composer.lock
