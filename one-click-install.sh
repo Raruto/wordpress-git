@@ -132,6 +132,18 @@ define('WP_MAX_MEMORY_LIMIT', '256M'); // wp-admin area
  * Trick: fix some relative paths
  */
 define('WP_CONTENT_URL', 'http://'.$_SERVER['HTTP_HOST'].'/'.basename(__DIR__).'/wp-content');
+/**
+ * Disable the Plugin and Theme Editor
+ */
+define( 'DISALLOW_FILE_EDIT', true );
+/**
+ * Disable Plugin and Theme Update and Installation
+ */
+define( 'DISALLOW_FILE_MODS', true );
+/**
+ * Disable All Automatic Updates
+ */
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
 PHP
 
 wp db create
