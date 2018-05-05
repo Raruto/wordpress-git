@@ -1,6 +1,6 @@
 {
     "name": "raruto/wordpress-git",
-    "description" : "a simple skeleton repo for managing a WordPress site using: composer, git",
+    "description" : "a simple skeleton repo for managing a WordPress site using: wp-cli, composer, git",
     "type"        : "project",
     "repositories": [
         {
