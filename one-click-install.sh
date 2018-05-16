@@ -139,7 +139,7 @@ define( 'DISALLOW_FILE_EDIT', true );
 /**
  * Disable Plugin and Theme Update and Installation
  */
-define( 'DISALLOW_FILE_MODS', true );
+//define( 'DISALLOW_FILE_MODS', true );
 /**
  * Disable All Automatic Updates
  */
