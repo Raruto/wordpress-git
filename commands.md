@@ -5,7 +5,7 @@
 ## Quick start
 
 - run `wp core download` to install wordpress (or even better [`wp core install`](https://github.com/Raruto/wordpress-git#pro-tip---creating-a-new-db-in-mamp--install-a-new-wordpress-instance))
-- run `composer install` to install any required plugins/themes (or `composer update` it's also fine).
+- run `composer install` to install any required plugins/themes (`composer update` it's also fine).
 
 ---
 
