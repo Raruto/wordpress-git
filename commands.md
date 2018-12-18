@@ -2,6 +2,13 @@
 
 ---
 
+## Quick start
+
+- “Wordpress”: `wp core download` to install wordpress (or even better [`wp core install`](https://github.com/Raruto/wordpress-git#pro-tip---creating-a-new-db-in-mamp--install-a-new-wordpress-instance))
+- “Plugins/Themes”: `composer install` to install any required plugin/theme (or `composer update` it's also fine).
+
+---
+
 ## WP CLI
 
 #### To update: 
