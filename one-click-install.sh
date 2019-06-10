@@ -112,7 +112,7 @@ printf "Your OS: \033[1;33m$OS_TYPE\033[m\n\n"
 #printf "WordPress Admin Password: "
 #read ADMIN_PASSWORD
 
-WP_GIT_FILES="wp-cli.yml\|one-click-install.sh\|composer.json\|.gitattributes\|.gitattributes\|.gitignore\|_config.yml\|README.md\|commands.md"
+WP_GIT_FILES="wp-cli.yml\|one-click-install.sh\|composer.json\|.git\|.gitattributes\|.gitattributes\|.gitignore\|_config.yml\|README.md\|commands.md"
 
 # Check for previous worpdress installation files.
 if [[ -f ./wp-config.php ]]; then
