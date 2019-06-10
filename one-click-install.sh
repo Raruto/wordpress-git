@@ -114,18 +114,17 @@ printf "Your OS: \033[1;33m$OS_TYPE\033[m\n\n"
 
 WP_GIT_FILES="wp-cli.yml\|one-click-install.sh\|composer.json\|.gitattributes\|.gitattributes\|.gitignore\|_config.yml\|README.md\|commands.md"
 
+# Check for previous worpdress installation files.
 if [[ -f ./wp-config.php ]]; then
 	  printf "\033[1;4;31mWARNING\e[24m:\e[0m WordPress files seem to already be present here.\n"
     read -p "Do you want to completely delete this installation? [y/n] " delete
-    if [[ $delete == [yY] ]]; then         ## Only delete the file if y or Y is pressed. Any other key would cancel it. It's safer this way.
+    if [[ $delete == [yY] ]]; then ## Only delete the file if y or Y is pressed.
         rm -rf `ls | grep -v $WP_GIT_FILES` && echo "Files deleted."
     else
       echo "Installation aborted."
-			exit;
-		fi
+      exit;
+    fi
 fi
-
-
 
 ################################################################################
 # Install WordPress and create the wp-config.php file...
@@ -146,7 +145,7 @@ define('WP_MAX_MEMORY_LIMIT', '256M'); // wp-admin area
 /**
  * Trick: fix some relative paths
  */
-define('WP_CONTENT_URL', 'http://'.$_SERVER['HTTP_HOST'].'/'.basename(__DIR__).'/wp-content');
+define('WP_CONTENT_URL', 'http://'.\$_SERVER['HTTP_HOST'].'/'.basename(__DIR__).'/wp-content');
 /**
  * Disable the Plugin and Theme Editor
  */
