@@ -7,7 +7,7 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 1. Clone this repo within the local web root folder (eg through [GitHub Desktop](https://desktop.github.com/)/[Atom.io](https://atom.io/) and [MAMP](https://www.mamp.info/)).
 2. **NB** Rename the cloned folder (_wordpress-git_) to something more friendly (eg _site-name_).
-3. Run [`one-click-install.sh`](./one-click-install.sh) to automatically install within this folder wordpress and any other required plugins/themes.
+3. Run [`wp-install.sh`](./wp-install.sh) to automatically install within this folder wordpress and any other required plugins/themes.
 6. Happy coding...
 
 ### remember to...
