@@ -19,6 +19,8 @@ This is a simple skeleton repo for managing a WordPress site using: **wp-cli**, 
 
 **live server:** ftp access or _**even better**_ [GitHubUpdater CI](https://medium.com/@limikael/continuous-integration-for-wordpress-d152ec4852e5) (and wordpress..)
 
+---
+
 #### more info at [wordpress-git/wiki](https://github.com/Raruto/wordpress-git/wiki)
 
 ---
